@@ -19,6 +19,7 @@ export default function DashboardPage({ user, onLogout }) {
             <p>Email: {user.email}</p>
           </div>
         );
+        
       case "settings":
         return <h1 className="text-xl font-bold">Settings</h1>;
       default:
